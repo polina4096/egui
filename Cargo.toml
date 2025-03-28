@@ -75,7 +75,7 @@ ahash = { version = "0.8.11", default-features = false, features = [
     "std",
 ] }
 backtrace = "0.3"
-bitflags = "2.6"
+bitflags = "2.9.0"
 bytemuck = "1.7.2"
 criterion = { version = "0.5.1", default-features = false }
 dify = { version = "0.7", default-features = false }
@@ -102,7 +102,7 @@ wasm-bindgen = "0.2"
 wasm-bindgen-futures = "0.4"
 web-sys = "0.3.70"
 web-time = "1.1.0" # Timekeeping for native and web
-wgpu = { version = "24.0.0", default-features = false }
+wgpu = { git = "https://github.com/polina4096/wgpu.git", default-features = false }
 windows-sys = "0.59"
 winit = { version = "0.30.9", default-features = false }
 
