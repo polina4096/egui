@@ -104,7 +104,7 @@ web-sys = "0.3.70"
 web-time = "1.1.0" # Timekeeping for native and web
 wgpu = { version = "24.0.0", default-features = false }
 windows-sys = "0.59"
-winit = { version = "0.30.7", default-features = false }
+winit = { version = "0.30.9", default-features = false }
 
 [workspace.lints.rust]
 unsafe_code = "deny"
